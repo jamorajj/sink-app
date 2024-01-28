@@ -14,6 +14,7 @@ export function Header() {
           <SignedIn>
             <Link href="/dashboard" className='link'>Dashboard</Link>
             <Link href="/create" className='link'>Create</Link>
+            <Link href="/explore" className='link'>Explore</Link>
           </SignedIn>
           <SignedOut>
             <Link href="/pricing" className='link'>Pricing</Link>
