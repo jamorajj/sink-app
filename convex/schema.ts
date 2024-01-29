@@ -12,4 +12,10 @@ export default defineSchema({
     voteIds: v.array(v.string()),
     profileImage: v.optional(v.string()),
   }),
+
+  users: defineTable({
+    userId: v.string(),
+    profileImage: v.optional(v.string()),
+    email: v.string(),
+  }),
 });
